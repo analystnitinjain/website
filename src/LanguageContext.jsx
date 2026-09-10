@@ -35,10 +35,13 @@ export const t = {
     disclaimers: 'DISCLAIMERS',
     termsConditions: 'TERMS & CONDITIONS',
     complaintsData: 'COMPLAINTS DATA',
+    complaintsAndAudit: 'COMPLAINTS AND AUDIT',
     cancellationRefund: 'CANCELLATION & REFUND',
     grievanceRedressal: 'GRIEVANCE REDRESSAL',
+    accessibilityGrievance: 'ACCESSIBILITY GRIEVANCE',
     codeOfConduct: 'CODE OF CONDUCT',
     investorCharter: 'INVESTOR CHARTER',
+    validUpi: 'VALID UPI',
     faq: 'FAQ',
     contact: 'CONTACT',
     copyright: 'Copyright © 2026 Nitin Jain - All Rights Reserved',
@@ -60,6 +63,10 @@ export const t = {
     connectWithUs: 'Connect With Us',
     newsletter: 'Newsletter',
     comingSoon: 'Coming Soon',
+    odrTitle: 'Online Dispute Resolution (ODR)',
+    odrSub: 'If your grievance is not resolved to your satisfaction, you may use SEBI’s SMART ODR portal or lodge a complaint on SCORES.',
+    odrPortal: 'ODR Portal',
+    scoresPortal: 'SEBI SCORES',
 
     // Coming Soon page
     comingSoonTitle: 'Coming Soon',
@@ -77,7 +84,7 @@ export const t = {
     closed: 'Closed',
 
     // Complaints data
-    lastUpdated: 'Last Updated: 30th Sep 2025',
+    lastUpdated: 'Last Updated: March 2026',
   },
   hi: {
     // Nav
@@ -92,10 +99,13 @@ export const t = {
     disclaimers: 'अस्वीकरण',
     termsConditions: 'नियम एवं शर्तें',
     complaintsData: 'शिकायत डेटा',
+    complaintsAndAudit: 'शिकायत और ऑडिट',
     cancellationRefund: 'रद्दीकरण और वापसी',
     grievanceRedressal: 'शिकायत निवारण',
+    accessibilityGrievance: 'सुगम्यता शिकायत',
     codeOfConduct: 'आचार संहिता',
     investorCharter: 'निवेशक चार्टर',
+    validUpi: 'वैध UPI',
     faq: 'अक्सर पूछे जाने वाले प्रश्न',
     contact: 'संपर्क',
     copyright: 'कॉपीराइट © 2026 नितिन जैन - सर्वाधिकार सुरक्षित',
@@ -117,6 +127,10 @@ export const t = {
     connectWithUs: 'हमसे जुड़ें',
     newsletter: 'न्यूज़लेटर',
     comingSoon: 'जल्द आ रहा है',
+    odrTitle: 'ऑनलाइन विवाद समाधान (ODR)',
+    odrSub: 'यदि आपकी शिकायत संतोषजनक रूप से हल नहीं होती है, तो आप सेबी के SMART ODR पोर्टल का उपयोग कर सकते हैं या SCORES पर शिकायत दर्ज कर सकते हैं।',
+    odrPortal: 'ODR पोर्टल',
+    scoresPortal: 'सेबी SCORES',
 
     // Coming Soon page
     comingSoonTitle: 'जल्द आ रहा है',

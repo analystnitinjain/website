@@ -164,8 +164,64 @@ export default function UnifiedLegalPage() {
         <p><strong>1.</strong> If you are not satisfied with my services or would like a discussion on the matter or pass on a feedback, please reach out on the details mentioned in contact us section through either email or phone or whatsapp. You will receive first response within 24 hours seeking further details if any. Rest assured that your complaint will be tried for best possible resolution or atleast any update within 7 working days after thoroughly revisiting all aspects of your submission.</p>
         <p><strong>2.</strong> Under the unfortunate circumstances wherein if you do not hear back as per above timelines or your complaint is not resolved to satisfaction, you may refer your complaint to the regulator through below mechanisms established by The Securities and Exchange Board of India (SEBI).</p>
         <ul>
-          <li>SCORES - <a href="https://www.scores.sebi.gov.in" target="_blank" rel="noreferrer">www.scores.sebi.gov.in</a></li>
-          <li>ODR Portal - <a href="https://www.smartodr.in" target="_blank" rel="noreferrer">www.smartodr.in</a></li>
+          <li>
+            SCORES -{' '}
+            <a href="https://scores.sebi.gov.in" target="_blank" rel="noreferrer">
+              scores.sebi.gov.in
+            </a>
+          </li>
+          <li>
+            ODR Portal -{' '}
+            <a href="https://smartodr.in" target="_blank" rel="noreferrer">
+              smartodr.in
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="accessibility-grievance" className="page-section">
+        <h2>Grievance Redressal Mechanism for Accessibility Issues</h2>
+        <p>
+          In compliance with the SEBI circular, Nitin Jain (SEBI Registered Research Analyst, INH000010399) has
+          established a dedicated grievance redressal mechanism to address accessibility-related complaints from
+          persons with disabilities (PwDs).
+        </p>
+
+        <h3>Dedicated Channels</h3>
+        <ul>
+          <li>
+            <strong>Email:</strong>{' '}
+            <a href="mailto:analystnitinjain@gmail.com">analystnitinjain@gmail.com</a>
+          </li>
+          <li>
+            <strong>Helpline:</strong>{' '}
+            <a href="tel:+919810543689">+91 98105 43689</a> (operational Mon–Fri, 9:30 AM – 4:00 PM)
+          </li>
+          <li>
+            <strong>Contact:</strong>{' '}
+            <a href="/contact">Contact Us page</a>
+          </li>
+        </ul>
+
+        <h3>Process</h3>
+        <ul>
+          <li>All accessibility-related grievances will be acknowledged within 2 working days.</li>
+          <li>Resolution/response will be provided within 15 working days.</li>
+          <li>Complex issues requiring longer timelines will be communicated clearly to the complainant.</li>
+        </ul>
+
+        <h3>Escalation Matrix for accessibility issues</h3>
+        <ul>
+          <li>
+            <strong>Level 1:</strong> Mr. Nitin Jain, Nodal Officer / Principal Officer, Email:{' '}
+            <a href="mailto:analystnitinjain@gmail.com">analystnitinjain@gmail.com</a>, Contact:{' '}
+            <a href="tel:+919810543689">+91 98105 43689</a>
+          </li>
+          <li>
+            <strong>Level 2:</strong> Mr. Nitin Jain, Compliance Officer, Email:{' '}
+            <a href="mailto:analystnitinjain@gmail.com">analystnitinjain@gmail.com</a>, Contact:{' '}
+            <a href="tel:+919810543689">+91 98105 43689</a>
+          </li>
         </ul>
       </section>
 
@@ -229,7 +285,14 @@ export default function UnifiedLegalPage() {
         <p>Mode of filing the complaint with research analyst: In case of any grievance/complaint, an investor should approach the concerned research analyst who shall strive to redress the grievance immediately, but not later than 21 days of the receipt of the grievance.</p>
         <p>Mode of filing the complaint on SCORES or with Research Analyst Administration and Supervisory Body (RAASB):</p>
         <ul>
-          <li>SCORES 2.0 (a web based centralized grievance redressal system of SEBI for facilitating effective grievance redressal in time-bound manner) (https://scores.sebi.gov.in)</li>
+          <li>
+            SCORES 2.0 (a web based centralized grievance redressal system of SEBI for facilitating effective grievance
+            redressal in time-bound manner) (
+            <a href="https://scores.sebi.gov.in" target="_blank" rel="noreferrer">
+              https://scores.sebi.gov.in
+            </a>
+            )
+          </li>
           <li>Two level review for complaint/ grievance against Research Analyst:
             <ul>
               <li>First review done by designated body (RAASB)</li>
@@ -238,7 +301,14 @@ export default function UnifiedLegalPage() {
           </li>
           <li>Email to designated email ID of RAASB</li>
         </ul>
-        <p>If the Investor is not satisfied with the resolution provided by the Market Participants, then the investor has the option to file the complaint/ grievance on SMART ODR platform for its resolution through online conciliation or arbitration.</p>
+        <p>
+          If the Investor is not satisfied with the resolution provided by the Market Participants, then the investor has
+          the option to file the complaint/ grievance on{' '}
+          <a href="https://smartodr.in" target="_blank" rel="noreferrer">
+            SMART ODR
+          </a>{' '}
+          platform for its resolution through online conciliation or arbitration.
+        </p>
         <p>With regard to physical complaints, investors may send their complaints to:</p>
         <address style={{ fontStyle: 'normal', paddingLeft: '20px' }}>
           Office of Investor Assistance and Education,<br />
@@ -317,7 +387,13 @@ export default function UnifiedLegalPage() {
         <p>Further, I strongly encourage you to file a complaint with SEBI and cybercell or any such authorities to take appropriate action against the fraudster. Below are the steps to complain with SEBI:</p>
         <h4>How to File a Complaint with SEBI:</h4>
         <ol>
-          <li><strong>Visit the SEBI Complaint Redress System (SCORES):</strong> Go to the official SEBI website https://scores.gov.in.</li>
+          <li>
+            <strong>Visit the SEBI Complaint Redress System (SCORES):</strong> Go to the official SEBI website{' '}
+            <a href="https://scores.sebi.gov.in" target="_blank" rel="noreferrer">
+              https://scores.sebi.gov.in
+            </a>
+            .
+          </li>
           <li><strong>Register or log in:</strong> Create an account or log in if you already have one.</li>
           <li><strong>File the Complaint:</strong> Enter all necessary details about the fraudulent activity.</li>
           <li><strong>Reference Documents:</strong> Attach any supporting documents that could help authorities to investigate the matter.</li>
@@ -325,6 +401,103 @@ export default function UnifiedLegalPage() {
         <p>You can also directly contact SEBI at their official helpline number: 022-26449000 or via email at sebi@sebi.gov.in.</p>
         <p>Please remain vigilant and report any such fraudulent activities to help us protect others from these scams. Thank you for your attention and cooperation.</p>
         <p>Sincerely,<br />Nitin Jain</p>
+      </section>
+
+      <section id="valid-upi" className="page-section">
+        <h2>SEBI Validated @Valid UPI Handles</h2>
+        <p>
+          A <strong>@valid UPI handle</strong> is an exclusive, standardized, and verified UPI ID introduced by the Securities and Exchange Board of India (SEBI) for collection of payments by registered intermediaries (including Research Analysts like Nitin Jain), starting <strong>October 1st, 2025</strong>. It includes a username, a category tag (e.g., brk for brokers, mf for mutual funds, ra for Research Analysts), the mandatory @valid identifier, and the bank&apos;s name. To verify a @valid handle, check for a white &quot;thumbs-up&quot; icon inside a green triangle on the payment confirmation screen or QR code, which visually confirms authenticity.
+        </p>
+        <p>
+          SEBI has made this initiative mandatory for all intermediaries to further enhance investor protection and provide investors with a secure, verified and transparent payment experience. Using @valid UPI handles for payments will ensure that your payments are always directed to verified SEBI-registered entities.
+        </p>
+
+        <h3>Our @Valid UPI Handle</h3>
+        <p>We are pleased to inform you that we have already received a @Valid UPI handle for our bank account.</p>
+        <div className="legal-upi-card">
+          <h3>Research Analyst</h3>
+          <img
+            src="/assets/upi-qr-code.png"
+            alt="RA Valid UPI QR Code"
+            className="legal-upi-qr-image"
+          />
+          <div className="legal-upi-id">nitinjain.ra@validhdfc</div>
+          <p className="legal-upi-note">For UPI payment directly to our bank account</p>
+        </div>
+
+        <h3>Please Note</h3>
+        <ul>
+          <li>These @valid UPI IDs are only for payment towards research services, i.e. Subscription to any of our products.</li>
+          <li>You do <strong>NOT</strong> need to remember or note them down. We will provide you with these whenever you need to make a payment to us.</li>
+          <li>These UPI IDs may change in future if we change our payment gateway provider or bank account.</li>
+          <li>While it is not mandatory to use UPI for making payments, SEBI strongly advises all individual investors to actively use the &quot;@valid&quot; UPI handles and verify payment details through SEBI Check before transferring funds.</li>
+          <li>SEBI clarified that the @valid UPI handle is an additional payment option, not a replacement. Investors can still use NEFT, RTGS, IMPS, etc., but are encouraged to prefer @valid for added security.</li>
+        </ul>
+
+        <h3>What This Means for You?</h3>
+        <ul>
+          <li><strong>UPI Payments:</strong> Whenever you make payments for our subscriptions using UPI, you will now see the option to pay to our @Valid UPI handle.</li>
+          <li><strong>Bank Transfer:</strong> Direct bank transfer mode will also remain available as before though we recommend you use UPI payments.</li>
+          <li><strong>Seamless Experience:</strong> This change is purely at the backend – there is no additional step required from your side. The payment experience remains the same.</li>
+        </ul>
+
+        <h3>How to Verify @Valid UPI?</h3>
+        <p>The handle follows a specific pattern:</p>
+        <p><code>[Username/Business Name].[Category Tag]@valid[Bank Name]</code></p>
+        <ul>
+          <li><strong>Username/Business Name:</strong> The intermediary&apos;s name.</li>
+          <li><strong>Category Tag:</strong> A short code for the type of intermediary, such as <code>ra</code> for Research Analysts, <code>brk</code> for brokers or <code>mf</code> for mutual funds.</li>
+          <li><strong>@valid:</strong> A unique identifier that confirms the handle is officially verified.</li>
+          <li><strong>Bank Name:</strong> The name of the bank associated with the handle.</li>
+        </ul>
+        <p>
+          On the payment confirmation screen or QR code, look for a <strong>white thumbs-up icon inside a green triangle</strong>, which visually confirms authenticity.
+        </p>
+
+        <h3>SEBI Check</h3>
+        <p>
+          SEBI Check enables investors to verify the authenticity of UPI IDs and linked bank account details, either by scanning a QR code or manually entering the UPI ID/bank account details. This will give you an additional and simple way to confirm that your payments are always directed to a genuine SEBI-registered intermediary.
+        </p>
+        <p>
+          <a href="https://siportal.sebi.gov.in/intermediary/sebi-check" target="_blank" rel="noreferrer">
+            Visit SEBI Check Portal →
+          </a>
+        </p>
+
+        <h3>Frequently Asked Questions (for Investors)</h3>
+        <p><strong>Q. Is it compulsory for investors to use the new handle only?</strong></p>
+        <p>
+          Investors can choose their preferred mode of payment, such as UPI, IMPS, NEFT, RTGS, or Cheques. If an investor opts to use UPI for payment to registered intermediaries, then they have to do so only using the new UPI IDs allotted to registered intermediaries.
+        </p>
+        <p><strong>Q. What should I check while making payment using the new UPI IDs / QR Code?</strong></p>
+        <p>Investors need to keep the following things into consideration:</p>
+        <ul>
+          <li>The UPI ID should contain the category tag such as <code>ra</code> for Research Analysts.</li>
+          <li>The new and exclusive handle <code>@valid</code> should be present, followed by the bank name.</li>
+          <li>On the confirmation screen, the app should show a white thumbs-up icon inside a green triangle.</li>
+          <li>The QR code will have a white thumbs-up icon inside a green triangle. It will also display the UPI ID just below the QR code.</li>
+        </ul>
+        <p><strong>Q. Do investors also need to obtain new UPI handles to transact in the securities market?</strong></p>
+        <p>No. The new UPI IDs are only for intermediaries to obtain. Investors can continue to use their existing UPI IDs.</p>
+        <p><strong>Q. Whom to approach if my transaction / payment fails with the new UPI ID?</strong></p>
+        <p>
+          The secure validated UPI ID of intermediaries will use the same banking channel as the earlier generic UPI handles. In case of any technical difficulty, investors are requested to approach their respective bank.
+        </p>
+
+        <h3>Further Information</h3>
+        <p>
+          For complete details on standardised, validated and exclusive UPI IDs for payment collection by SEBI-registered intermediaries, please refer to the SEBI circular:
+        </p>
+        <p>
+          <a href="https://www.sebi.gov.in/legal/circulars/jun-2025/adoption-of-standardised-validated-and-exclusive-upi-ids-for-payment-collection-by-sebi-registered-intermediaries-from-investors_94535.html" target="_blank" rel="noreferrer">
+            SEBI Circular (Jun 11, 2025) — Adoption of Standardised, Validated and Exclusive UPI IDs →
+          </a>
+        </p>
+
+        <h3>Your Security is Our Priority</h3>
+        <p>
+          Always verify the @valid UPI handle before making payments. Look for the green triangle with thumbs-up icon and use SEBI Check portal for additional verification.
+        </p>
       </section>
 
       <section id="faq" className="page-section">

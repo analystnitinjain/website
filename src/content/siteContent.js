@@ -67,12 +67,12 @@ export const pagesByPath = {
     ]
   },
   "/complaints-data": {
-    "title": "Complaints Data",
+    "title": "Complaints and Audit",
     "sections": [
       {
         "heading": "Overview",
         "paragraphs": [
-          "Last Updated: 30th Sep 2025"
+          "Last Updated: March 2026"
         ]
       }
     ]
@@ -85,8 +85,8 @@ export const pagesByPath = {
         "paragraphs": [
           "Here are the steps a client can follow in case of grievance or feedback:",
           "2. Under the unfortunate circumstances wherein if you do not hear back as per above timelines or your complaint is not resolved to satisfaction, you may refer your complaint to the regulator through below mechanisms established by The Securities and Exchange Board of India (SEBI).",
-          "SCORES - www.scores.sebi.gov.in",
-          "ODR Portal - www.smartodr.in"
+          "SCORES - https://scores.sebi.gov.in",
+          "ODR Portal - https://smartodr.in"
         ]
       }
     ]
@@ -173,7 +173,7 @@ export const pagesByPath = {
           "Check SEBI's official records: You can verify my SEBI registration and other official details through the SEBI website or by contacting SEBI directly.",
           "If you have encountered any fraudulent activities or if you believe these scammers have targeted you, first, you can make Admin of this website aware by reaching on email on analystnitinjain@gmail.com or whatsapp or direct call on +919810543689.",
           "Further, I strongly encourage you to file a complaint with SEBI and cybercell or any such authorities to take appropriate action against the fraudster. Below are the steps to complain with SEBI:",
-          "Visit the SEBI Complaint Redress System (SCORES): Go to the official SEBI website https://scores.gov.in.",
+          "Visit the SEBI Complaint Redress System (SCORES): Go to the official SEBI website https://scores.sebi.gov.in.",
           "Register or log in: Create an account or log in if you already have one.",
           "File the Complaint: Enter all necessary details about the fraudulent activity.",
           "Reference Documents: Attach any supporting documents that could help authorities to investigate the matter.",

@@ -4,9 +4,13 @@ import { pagesByPath } from './content/siteContent.js'
 import UnifiedLegalPage from './UnifiedLegalPage.jsx'
 import { useLang, t } from './LanguageContext.jsx'
 
+const AUDIT_REPORT_PDF = '/assets/ACRFY25.pdf'
+const SCORES_URL = 'https://scores.sebi.gov.in'
+const ODR_URL = 'https://smartodr.in'
+
 const complaintsData = {
   monthly: {
-    heading: 'Data for the Month Ending September 2025',
+    heading: 'Data for the Month Ending March 2026',
     columns: [
       'Sr. No.',
       'Received from',
@@ -21,22 +25,26 @@ const complaintsData = {
       ['1', 'Directly from Investors', '0', '0', '0', '0', '0', '-'],
       ['2', 'SEBI (SCORES)', '0', '0', '0', '0', '0', '-'],
       ['3', 'Other Sources', '0', '0', '0', '0', '0', '-'],
-      ['Grand Total', '', '0', '0', '0', '0', '0', '-'],
     ],
+    grandTotal: ['0', '0', '0', '0', '0', '-'],
   },
   monthlyTrend: {
     heading: 'Trend of Monthly Disposal of Complaints',
     columns: ['Sr. No.', 'Month', 'Carried forward from previous month', 'Received', 'Resolved', 'Pending'],
     rows: [
-      ['1', 'March 2025', '0', '0', '0', '0'],
-      ['2', 'April 2025', '0', '0', '0', '0'],
-      ['3', 'May 2025', '0', '0', '0', '0'],
+      ['1', 'Q4 FY2025-26', '0', '0', '0', '0'],
+      ['2', 'Q3 FY2025-26', '0', '0', '0', '0'],
+      ['3', 'Q2 FY2025-26', '0', '0', '0', '0'],
+      ['4', 'Q1 FY2025-26', '0', '0', '0', '0'],
     ],
   },
   annualTrend: {
     heading: 'Trend of Annual Disposal of Complaints',
     columns: ['Sr. No.', 'Year', 'Carried forward from previous year', 'Received', 'Resolved', 'Pending'],
-    rows: [['1', '2024-25', '0', '2', '2', '0']],
+    rows: [
+      ['1', '2025-26', '0', '0', '0', '0'],
+      ['2', '2024-25', '0', '0', '0', '0'],
+    ],
   },
 }
 
@@ -87,7 +95,7 @@ function DataTable({ title, table }) {
   return (
     <section className="page-section legal-layout">
       <h2>{title ?? table.heading}</h2>
-      <div className="table-wrap">
+      <div className="table-wrap" tabIndex={0} role="region" aria-label={title ?? table.heading}>
         <table className="policy-table">
           <thead>
             <tr>
@@ -104,10 +112,74 @@ function DataTable({ title, table }) {
                 ))}
               </tr>
             ))}
+            {table.grandTotal ? (
+              <tr>
+                <td colSpan={2}>
+                  <strong>Grand Total</strong>
+                </td>
+                {table.grandTotal.map((cell, idx) => (
+                  <td key={`total-${idx}`}>
+                    <strong>{cell}</strong>
+                  </td>
+                ))}
+              </tr>
+            ) : null}
           </tbody>
         </table>
       </div>
     </section>
+  )
+}
+
+function AuditReportPage() {
+  return (
+    <main className="page audit-report-page">
+      <h1>Audit Report FY24-25</h1>
+      <p className="page-note">Auditor&apos;s Report for FY24-25</p>
+      <section className="page-section pdf-section">
+        <iframe
+          src={AUDIT_REPORT_PDF}
+          title="Auditor's Report for FY24-25"
+          className="pdf-viewer"
+        />
+        <div className="pdf-download-section">
+          <a
+            href={AUDIT_REPORT_PDF}
+            download="ACRFY25.pdf"
+            className="download-button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download Auditor&apos;s Report (PDF)
+          </a>
+        </div>
+      </section>
+    </main>
+  )
+}
+
+function ComplaintsAndAuditPage() {
+  return (
+    <main className="page">
+      <h1>Complaints and Audit</h1>
+      <section className="page-section legal-layout">
+        <p>
+          We are pleased to inform you that in full compliance with SEBI regulations, our audit for FY24-25 is duly
+          completed. You may access the{' '}
+          <a href="/audit-report-fy24-25" target="_blank" rel="noreferrer">
+            Auditor&apos;s Report for FY24-25
+          </a>
+          .
+        </p>
+        <p>
+          <strong>Nitin Jain</strong> maintains highest level of internal governance, code of ethics and regulatory
+          compliances and will continue to do so.
+        </p>
+      </section>
+      <DataTable table={complaintsData.monthly} />
+      <DataTable table={complaintsData.monthlyTrend} />
+      <DataTable table={complaintsData.annualTrend} />
+    </main>
   )
 }
 
@@ -223,15 +295,17 @@ function SiteFooter() {
       { path: '/legal#disclosures-privacy', label: tr.privacyPolicy },
       { href: 'https://docs.google.com/document/d/1b3ox0fGR4L9l8uClB07HAyGf2m8wNMsDhp-9-GOs13o/edit?tab=t.0', label: tr.disclaimers, external: true },
       { path: '/legal#terms-conditions', label: tr.termsConditions },
-      { path: '/complaints-data', label: tr.complaintsData }
+      { path: '/complaints-data', label: tr.complaintsAndAudit }
     ],
     [
       { path: '/legal#cancellation-refunds', label: tr.cancellationRefund }
     ],
     [
       { path: '/legal#grievance-redressal', label: tr.grievanceRedressal },
+      { path: '/legal#accessibility-grievance', label: tr.accessibilityGrievance },
       { path: '/legal#code-of-conduct', label: tr.codeOfConduct },
       { path: '/legal#investor-charter', label: tr.investorCharter },
+      { path: '/legal#valid-upi', label: tr.validUpi },
       { path: '/legal#faq', label: tr.faq },
       { path: '/contact', label: tr.contact }
     ]
@@ -343,6 +417,22 @@ function HomePage() {
         </div>
       </section>
 
+      <section className="home-block odr-block">
+        <h2>{tr.odrTitle}</h2>
+        <span className="section-line" />
+        <p>{tr.odrSub}</p>
+        <div className="odr-links">
+          <a href={ODR_URL} target="_blank" rel="noreferrer" className="odr-link">
+            <strong>{tr.odrPortal}</strong>
+            <span>smartodr.in</span>
+          </a>
+          <a href={SCORES_URL} target="_blank" rel="noreferrer" className="odr-link">
+            <strong>{tr.scoresPortal}</strong>
+            <span>scores.sebi.gov.in</span>
+          </a>
+        </div>
+      </section>
+
       <section className="newsletter-banner">
         <div className="newsletter-overlay" />
         <div className="newsletter-content">
@@ -439,15 +529,7 @@ function ContentPage({ page, path }) {
   }
 
   if (path === '/complaints-data') {
-    return (
-      <main className="page">
-        <h1>{page.title}</h1>
-        <p className="page-note">Last Updated: 30th Sep 2025</p>
-        <DataTable table={complaintsData.monthly} />
-        <DataTable table={complaintsData.monthlyTrend} />
-        <DataTable table={complaintsData.annualTrend} />
-      </main>
-    )
+    return <ComplaintsAndAuditPage />
   }
 
   if (path === '/faq') {
@@ -510,6 +592,8 @@ function App() {
       <SiteHeader />
       <Routes>
         <Route path="/legal" element={<UnifiedLegalPage />} />
+        <Route path="/audit-report-fy24-25" element={<AuditReportPage />} />
+        <Route path="/audit-report" element={<Navigate to="/audit-report-fy24-25" replace />} />
         <Route path="/coming-soon" element={<ComingSoonPage />} />
         <Route path="/contact" element={<ContentPage page={{ title: 'Contact Us', sections: [] }} path="/contact" />} />
         <Route path="/about" element={<Navigate to="/coming-soon" replace />} />
