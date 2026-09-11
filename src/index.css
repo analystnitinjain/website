@@ -31,6 +31,20 @@ a {
   text-decoration: none;
 }
 
+.page-section a,
+.legal-layout a,
+.unified-legal a {
+  color: #1d4ed8;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.page-section a:hover,
+.legal-layout a:hover,
+.unified-legal a:hover {
+  color: #1e3a8a;
+}
+
 #root,
 .site-shell {
   min-height: 100vh;

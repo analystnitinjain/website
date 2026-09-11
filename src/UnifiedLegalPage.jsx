@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import { SITE_URL, siteUrl } from './siteConfig.js'
 
 export default function UnifiedLegalPage() {
   const location = useLocation()
@@ -135,7 +136,14 @@ export default function UnifiedLegalPage() {
 
       <section id="cancellation-refunds" className="page-section">
         <h2>Cancellation & Refunds Policy</h2>
-        <p>There is no provision for any refund or cancellations for the services offered by investkaps through its website www.analystnitinjain.com, its subdomains or its associate or affiliate channels.</p>
+        <p>
+          There is no provision for any refund or cancellations for the services offered by Nitin Jain through its
+          website{' '}
+          <a href={SITE_URL} target="_blank" rel="noreferrer">
+            www.analystnitinjain.com
+          </a>
+          , its subdomains or its associate or affiliate channels.
+        </p>
         <p>Therefore, I request you to read through all the information including frequently asked questions (FAQs) about the scope of the service before subscribing. Thereafter, if you have any queries, then please feel free to write to me at analystnitinjain@gmail.com before you make any purchase.</p>
         <p>By availing of services, you agree to the condition of no cancellations or refunds.</p>
 
@@ -198,8 +206,10 @@ export default function UnifiedLegalPage() {
             <a href="tel:+919810543689">+91 98105 43689</a> (operational Mon–Fri, 9:30 AM – 4:00 PM)
           </li>
           <li>
-            <strong>Contact:</strong>{' '}
-            <a href="/contact">Contact Us page</a>
+            <strong>Web Form / Contact:</strong>{' '}
+            <a href={siteUrl('/contact')} target="_blank" rel="noreferrer">
+              {siteUrl('/contact')}
+            </a>
           </li>
         </ul>
 
@@ -417,7 +427,7 @@ export default function UnifiedLegalPage() {
         <div className="legal-upi-card">
           <h3>Research Analyst</h3>
           <img
-            src="/assets/upi-qr-code.png"
+            src={siteUrl('/assets/upi-qr-code.png')}
             alt="RA Valid UPI QR Code"
             className="legal-upi-qr-image"
           />

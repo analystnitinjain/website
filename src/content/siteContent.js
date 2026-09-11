@@ -295,7 +295,7 @@ export const pagesByPath = {
       {
         "heading": "Overview",
         "paragraphs": [
-          "There is no provision for any refund or cancellations for the services offered by investkaps through its website www.analystnitinjain.com, its subdomains or its associate or affiliate channels.",
+          "There is no provision for any refund or cancellations for the services offered by Nitin Jain through its website https://analystnitinjain.com, its subdomains or its associate or affiliate channels.",
           "By availing of services, you agree to the condition of no cancellations or refunds.",
           "Our services provide access to proprietary investment research and analysis that represents intellectual property.",
           "Once our research and analysis have been delivered, the information cannot be \"returned\" as it has already been accessed.",

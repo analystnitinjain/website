@@ -3,10 +3,13 @@ import { Link, Navigate, Route, Routes } from 'react-router-dom'
 import { pagesByPath } from './content/siteContent.js'
 import UnifiedLegalPage from './UnifiedLegalPage.jsx'
 import { useLang, t } from './LanguageContext.jsx'
+import { siteUrl } from './siteConfig.js'
 
-const AUDIT_REPORT_PDF = '/assets/ACRFY25.pdf'
+const AUDIT_REPORT_PDF = siteUrl('/assets/ACRFY25.pdf')
 const SCORES_URL = 'https://scores.sebi.gov.in'
 const ODR_URL = 'https://smartodr.in'
+const SEBI_RA_LIST_URL =
+  'https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=14'
 
 const complaintsData = {
   monthly: {
@@ -166,8 +169,12 @@ function ComplaintsAndAuditPage() {
         <p>
           We are pleased to inform you that in full compliance with SEBI regulations, our audit for FY24-25 is duly
           completed. You may access the{' '}
-          <a href="/audit-report-fy24-25" target="_blank" rel="noreferrer">
-            Auditor&apos;s Report for FY24-25
+          <a href={AUDIT_REPORT_PDF} target="_blank" rel="noreferrer">
+            Auditor&apos;s Report for FY24-25 (PDF)
+          </a>
+          {' '}or view it on the{' '}
+          <a href={siteUrl('/audit-report-fy24-25')} target="_blank" rel="noreferrer">
+            audit report page
           </a>
           .
         </p>
@@ -316,10 +323,16 @@ function SiteFooter() {
       <p className="footer-copy">{tr.copyright}</p>
       <div className="footer-meta">
         <p>
-          {tr.sebiNo} <a href="#">INH000010399</a>
+          {tr.sebiNo}{' '}
+          <a href={SEBI_RA_LIST_URL} target="_blank" rel="noreferrer">
+            INH000010399
+          </a>
         </p>
         <p>
-          {tr.bseNo} <a href="#">5637</a>
+          {tr.bseNo}{' '}
+          <a href={siteUrl('/contact')} target="_blank" rel="noreferrer">
+            5637
+          </a>
         </p>
       </div>
       {footerLinks.map((row, idx) => (

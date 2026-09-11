@@ -1,2 +1,2 @@
-# SPA fallback — existing files in /assets (incl. PDFs) are served first.
+# SPA fallback — existing files (PDF, images, JS/CSS) are served first.
 /*    /index.html   200
