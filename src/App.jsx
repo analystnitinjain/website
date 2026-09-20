@@ -57,6 +57,11 @@ const faqItems = [
     answer:
       'Please reach us at analystnitinjain@gmail.com if you cannot find an answer to your question. We will get back within 24 hours.',
   },
+  {
+    question: 'What is the cancellation and refund policy?',
+    answer:
+      'While we are yet to start onboarding clients, whenever we do onboard the clients would be free to stop subscription. In such a scenario pro-rata refund would be offered within 30 days of application.',
+  },
 ]
 
 function buildInvestorSections(paragraphs) {

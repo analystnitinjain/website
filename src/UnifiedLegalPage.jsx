@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import { SITE_URL, siteUrl } from './siteConfig.js'
+import { siteUrl } from './siteConfig.js'
 
 export default function UnifiedLegalPage() {
   const location = useLocation()
@@ -98,10 +98,10 @@ export default function UnifiedLegalPage() {
         <p>Analyst Nitin Jain has a contractual arrangement with vendors whereby the vendors provides technology solutions and related back-end infrastructure along with support for back-office related operations & processes. The vendors do not provide any investment advice or recommendation nor does it make any claim of returns or performance with respect to any advice or recommendation. More details in detailed disclosure at end.</p>
 
         <h3>Entire Agreement</h3>
-        <p>This User Agreement constitutes the entire agreement between the parties, and no other agreement, written or oral, exists between you and www.analystnitinjain.com and the Telegram channel/s. By using the Information on www.analystnitinjain.com and the Telegram channel/s, you assume full responsibility for any and all gains and losses, financial, emotional or otherwise, experienced, suffered or incurred by you. www.analystnitinjain.com and the Telegram channel/s do not guarantee the consistency, completeness or timeliness of, or otherwise endorse in any way, the views, opinions or recommendations expressed in the Information, do not give investment advice, and do not advocate the purchase or sale of any security or investment by you or any other individual. The Information is not intended to provide tax, legal or investment advice, which you should obtain from your professional advisor prior to making any investment of the type discussed in the Information. The Information does not constitute a solicitation by the information providers, www.analystnitinjain.com, the Telegram channel/s or other of the purchase or sale of securities. The service is provided "as is," without warranty of any kind, either express or implied, including without limitation, any warranty for information, data, services, uninterrupted access, or products provided through or in connection with the service. Specifically, www.analystnitinjain.com and the Telegram channel/s disclaim any and all warranties, including, but not limited to: (i) Any warranties concerning the availability, consistency, usefulness, or content of information, products or services; and (ii) Any warranties of title, warranty of non-infringement and warranties of merchantability or fitness for a particular purpose. This disclaimer of liability applies to any damages or injury caused by any failure of performance, error, omission, interruption, deletion, defect, delay in operation or transmission, computer virus, communication line failure, theft or destruction or unauthorized access to, alteration of, or use of record, whether for breach of contract, tort, negligence, or under any other cause of action. Neither www.analystnitinjain.com, the Telegram channel/s nor any of its employees, agents, successors, assignees, affiliates, group companies or content or service providers shall be liable to you or other third party for any direct, indirect, incidental, special or consequential damages arising out of use of service or inability to gain access to or use the service or out of any breach of any warranty. Because some countries do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you. In such countries, the respective liability of www.analystnitinjain.com, the Telegram channel/s, its employees, agents, successors, assignees, affiliates, group companies and content or service providers respective liability is limited to the amount provided under said law. Further, you agree and understand that all services provided are non-refundable and that you should carefully consider whether our services are able to meet your needs.</p>
+        <p>This User Agreement constitutes the entire agreement between the parties, and no other agreement, written or oral, exists between you and www.analystnitinjain.com and the Telegram channel/s. By using the Information on www.analystnitinjain.com and the Telegram channel/s, you assume full responsibility for any and all gains and losses, financial, emotional or otherwise, experienced, suffered or incurred by you. www.analystnitinjain.com and the Telegram channel/s do not guarantee the consistency, completeness or timeliness of, or otherwise endorse in any way, the views, opinions or recommendations expressed in the Information, do not give investment advice, and do not advocate the purchase or sale of any security or investment by you or any other individual. The Information is not intended to provide tax, legal or investment advice, which you should obtain from your professional advisor prior to making any investment of the type discussed in the Information. The Information does not constitute a solicitation by the information providers, www.analystnitinjain.com, the Telegram channel/s or other of the purchase or sale of securities. The service is provided "as is," without warranty of any kind, either express or implied, including without limitation, any warranty for information, data, services, uninterrupted access, or products provided through or in connection with the service. Specifically, www.analystnitinjain.com and the Telegram channel/s disclaim any and all warranties, including, but not limited to: (i) Any warranties concerning the availability, consistency, usefulness, or content of information, products or services; and (ii) Any warranties of title, warranty of non-infringement and warranties of merchantability or fitness for a particular purpose. This disclaimer of liability applies to any damages or injury caused by any failure of performance, error, omission, interruption, deletion, defect, delay in operation or transmission, computer virus, communication line failure, theft or destruction or unauthorized access to, alteration of, or use of record, whether for breach of contract, tort, negligence, or under any other cause of action. Neither www.analystnitinjain.com, the Telegram channel/s nor any of its employees, agents, successors, assignees, affiliates, group companies or content or service providers shall be liable to you or other third party for any direct, indirect, incidental, special or consequential damages arising out of use of service or inability to gain access to or use the service or out of any breach of any warranty. Because some countries do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you. In such countries, the respective liability of www.analystnitinjain.com, the Telegram channel/s, its employees, agents, successors, assignees, affiliates, group companies and content or service providers respective liability is limited to the amount provided under said law. Further, you agree and understand that cancellation and refunds are governed by the Cancellation & Refunds Policy on this website, and that you should carefully consider whether our services are able to meet your needs.</p>
 
         <h3>Termination</h3>
-        <p>This User Agreement and the license rights granted hereunder shall remain in full force and effect unless terminated or cancelled for any of the following reasons: (a) immediately by www.analystnitinjain.com or the Telegram channel/s for any unauthorized access or use by you (b) immediately by www.analystnitinjain.com or the Telegram channel/s if you assign or transfer (or attempt the same) any rights granted to you under this Agreement; (c) immediately, if you violate any of the other terms and conditions of this User Agreement. Termination or cancellation of this Agreement shall not affect any right or relief to which www.analystnitinjain.com or the Telegram channel/s may be entitled, at law or in equity. Upon termination of this User Agreement, all rights granted to you will terminate and revert to www.analystnitinjain.com and the Telegram channel/s. Except as set forth herein, regardless of the reason for cancellation or termination of this User Agreement, the fee charged if any for access to www.analystnitinjain.com and the Telegram channel/s is non-refundable for any reason.</p>
+        <p>This User Agreement and the license rights granted hereunder shall remain in full force and effect unless terminated or cancelled for any of the following reasons: (a) immediately by www.analystnitinjain.com or the Telegram channel/s for any unauthorized access or use by you (b) immediately by www.analystnitinjain.com or the Telegram channel/s if you assign or transfer (or attempt the same) any rights granted to you under this Agreement; (c) immediately, if you violate any of the other terms and conditions of this User Agreement. Termination or cancellation of this Agreement shall not affect any right or relief to which www.analystnitinjain.com or the Telegram channel/s may be entitled, at law or in equity. Upon termination of this User Agreement, all rights granted to you will terminate and revert to www.analystnitinjain.com and the Telegram channel/s. Except as set forth herein, regardless of the reason for cancellation or termination of this User Agreement, the fee charged if any for access to www.analystnitinjain.com and the Telegram channel/s shall be subject to the Cancellation & Refunds Policy on this website.</p>
 
         <h3>Dispute Settlement</h3>
         <p>All disputes, differences and questions of any nature which at any time arise between the parties to this agreement out of the construction of or concerning anything contained in or arising out of this agreement or as to the rights, duties or liabilities of the parties thereto and including any question of whether such dealings, transactions MOA, or contracts have been entered into or not, shall be referred to the sole Arbitrator under the Arbitration and conciliation Act, 1996. The sole Arbitrator shall be appointed by the proprietor of www.analystnitinjain.com. The Arbitration Proceedings shall be held at Delhi, India. The Place of Arbitration will be at Delhi, India. The laws prevailing in India shall alone apply to the Arbitration Proceedings between the parties.</p>
@@ -109,8 +109,11 @@ export default function UnifiedLegalPage() {
         <h3>Jurisdiction</h3>
         <p>Both the Parties agree that all claims, differences and disputes, including any agreements, contracts and transactions made with reference to anything incidental thereto or in pursuance thereof or relating to their validity, construction, interpretation, fulfilment or the rights, obligations and liabilities of the parties thereto and including any question of whether such dealings, transactions MOA, or contracts have been entered into or not, shall be subject to the exclusive jurisdiction of the Courts of Delhi only.</p>
 
-        <h3>No Refund Policy</h3>
-        <p>www.analystnitinjain.com follows a strict no refund policy, and in no case any refunds will be made, nor can the subscription be transferred to any other party.</p>
+        <h3>Cancellation & Refunds</h3>
+        <p>
+          While we are yet to start onboarding clients, whenever we do onboard the clients would be free to stop
+          subscription. In such a scenario pro-rata refund would be offered within 30 days of application.
+        </p>
 
         <h3>Standard Disclaimer</h3>
         <ul>
@@ -137,33 +140,13 @@ export default function UnifiedLegalPage() {
       <section id="cancellation-refunds" className="page-section">
         <h2>Cancellation & Refunds Policy</h2>
         <p>
-          There is no provision for any refund or cancellations for the services offered by Nitin Jain through its
-          website{' '}
-          <a href={SITE_URL} target="_blank" rel="noreferrer">
-            www.analystnitinjain.com
-          </a>
-          , its subdomains or its associate or affiliate channels.
+          While we are yet to start onboarding clients, whenever we do onboard the clients would be free to stop
+          subscription. In such a scenario pro-rata refund would be offered within 30 days of application.
         </p>
-        <p>Therefore, I request you to read through all the information including frequently asked questions (FAQs) about the scope of the service before subscribing. Thereafter, if you have any queries, then please feel free to write to me at analystnitinjain@gmail.com before you make any purchase.</p>
-        <p>By availing of services, you agree to the condition of no cancellations or refunds.</p>
-
-        <h3>Why We Have This Policy</h3>
-        <ul>
-          <li>Our services provide access to proprietary investment research and analysis that represents intellectual property.</li>
-          <li>Once our research and analysis have been delivered, the information cannot be "returned" as it has already been accessed.</li>
-          <li>We dedicate significant resources to create high-quality, detailed analysis tailored to our subscribers' needs.</li>
-          <li>The value of our subscription is in the expertise, insights, and ongoing support provided throughout the subscription period.</li>
-        </ul>
-
-        <h3>Before You Subscribe</h3>
-        <p>We recommend the following steps before making a purchase:</p>
-        <ul>
-          <li>Review our free content to better understand our analysis style and approach</li>
-          <li>Read through our comprehensive FAQ section</li>
-          <li>Understand the specific benefits and limitations of the subscription package you are interested in</li>
-          <li>Contact us at analystnitinjain@gmail.com with any questions prior to subscription</li>
-        </ul>
-        <p>For any questions regarding this policy, please contact: analystnitinjain@gmail.com</p>
+        <p>
+          For any questions regarding this policy, please contact:{' '}
+          <a href="mailto:analystnitinjain@gmail.com">analystnitinjain@gmail.com</a>
+        </p>
       </section>
 
       <section id="grievance-redressal" className="page-section">
@@ -512,10 +495,24 @@ export default function UnifiedLegalPage() {
 
       <section id="faq" className="page-section">
         <h2>Frequently Asked Questions</h2>
-        <p>Please reach us at analystnitinjain@gmail.com if you cannot find an answer to your question. We will get back within 24 hours.</p>
+        <p>
+          Please reach us at{' '}
+          <a href="mailto:analystnitinjain@gmail.com">analystnitinjain@gmail.com</a> if you cannot find an answer to
+          your question. We will get back within 24 hours.
+        </p>
         <details className="faq-item" open>
           <summary>How do I verify genuine Research Analyst so as to not fall prey to impersonation fraud?</summary>
-          <p>Please click here and refer to "Important Notice Regarding Fraudulent Activities". Ensure the correct registered RA details including contact number on SEBI website.</p>
+          <p>
+            Please click here and refer to &quot;Important Notice Regarding Fraudulent Activities&quot;. Ensure the
+            correct registered RA details including contact number on SEBI website.
+          </p>
+        </details>
+        <details className="faq-item" open>
+          <summary>What is the cancellation and refund policy?</summary>
+          <p>
+            While we are yet to start onboarding clients, whenever we do onboard the clients would be free to stop
+            subscription. In such a scenario pro-rata refund would be offered within 30 days of application.
+          </p>
         </details>
       </section>
     </main>

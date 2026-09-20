@@ -266,7 +266,7 @@ export const pagesByPath = {
           "This User Agreement and the license rights granted hereunder shall remain in full force and effect unless terminated or cancelled for any of the following reasons: (a) immediately by www.analystnitinjain.com or the Telegram channel/s for any unauthorized access or use by you (b) immediately by www.analystnitinjain.com or the Telegram channel/s if you assign or transfer (or attempt the same) any rights granted to you under this Agreement; (c) immediately, if you violate any of the other terms and conditions of this User Agreement. Termination or cancellation of this Agreement shall not affect any right or relief to which www.analystnitinjain.com or the Telegram channel/s may be entitled, at law or in equity. Upon termination of this User Agreement, all rights granted to you will terminate and revert to www.analystnitinjain.com and the Telegram channel/s. Except as set forth herein, regardless of the reason for cancellation or termination of this User Agreement, the fee charged if any for access to www.analystnitinjain.com and the Telegram channel/s is non-refundable for any reason.",
           "All disputes, differences and questions of any nature which at any time arise between the parties to this agreement out of the construction of or concerning anything contained in or arising out of this agreement or as to the rights, duties or liabilities of the parties thereto and including any question of whether such dealings, transactions MOA, or contracts have been entered into or not, shall be referred to the sole Arbitrator under the Arbitration and conciliation Act, 1996. The sole Arbitrator shall be appointed by the proprietor of www.analystnitinjain.com. The Arbitration Proceedings shall be held at Delhi, India. The Place of Arbitration will be at Delhi, India. The laws prevailing in India shall alone apply to the Arbitration Proceedings between the parties.",
           "Both the Parties agree that all claims, differences and disputes, including any agreements, contracts and transactions made with reference to anything incidental thereto or in pursuance thereof or relating to their validity, construction, interpretation, fulfilment or the rights, obligations and liabilities of the parties thereto and including any question of whether such dealings, transactions MOA, or contracts have been entered into or not, shall be subject to the exclusive jurisdiction of the Courts of Delhi only.",
-          "www.analystnitinjain.com follows a strict no refund policy, and in no case any refunds will be made, nor can the subscription be transferred to any other party.",
+          "While we are yet to start onboarding clients, whenever we do onboard the clients would be free to stop subscription. In such a scenario pro-rata refund would be offered within 30 days of application.",
           "I, Nitin Jain (proprietor of analystnitinjain), am registered with SEBI as Individual Research Analyst, in accordance of which I provide Research Analyst services to my clients.",
           "I am not affiliated with any other intermediaries or receive any brokerage or commission from any third party.",
           "The SEBI has issued no penalties/directions under the SEBI Act or any other regulatory body.",
@@ -295,16 +295,7 @@ export const pagesByPath = {
       {
         "heading": "Overview",
         "paragraphs": [
-          "There is no provision for any refund or cancellations for the services offered by Nitin Jain through its website https://analystnitinjain.com, its subdomains or its associate or affiliate channels.",
-          "By availing of services, you agree to the condition of no cancellations or refunds.",
-          "Our services provide access to proprietary investment research and analysis that represents intellectual property.",
-          "Once our research and analysis have been delivered, the information cannot be \"returned\" as it has already been accessed.",
-          "We dedicate significant resources to create high-quality, detailed analysis tailored to our subscribers' needs.",
-          "The value of our subscription is in the expertise, insights, and ongoing support provided throughout the subscription period.",
-          "We recommend the following steps before making a purchase:",
-          "Review our free content to better understand our analysis style and approach",
-          "Read through our comprehensive FAQ section",
-          "Understand the specific benefits and limitations of the subscription package you are interested in",
+          "While we are yet to start onboarding clients, whenever we do onboard the clients would be free to stop subscription. In such a scenario pro-rata refund would be offered within 30 days of application.",
           "For any questions regarding this policy, please contact: analystnitinjain@gmail.com"
         ]
       }
